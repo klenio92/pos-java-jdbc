@@ -15,7 +15,6 @@ public class TesteBancojdbc {
 		UserPosDAO userPosDAO = new UserPosDAO();
 		Userposjava userposjava = new Userposjava();
 
-		userposjava.setId(6L);
 		userposjava.setNome("Mimimia");
 		userposjava.setEmail("Outro@gmail.coma");
 
@@ -63,6 +62,18 @@ public class TesteBancojdbc {
 			e.printStackTrace();
 		}
 
+	}
+
+	@Test
+	public void initDeletar() {
+		try {
+
+			UserPosDAO dao = new UserPosDAO();
+			dao.deletar(3L);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }
