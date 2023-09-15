@@ -181,6 +181,7 @@ public class UserPosDAO {
 			preparedStatement.executeUpdate();
 			connection.commit();
 
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 			try {

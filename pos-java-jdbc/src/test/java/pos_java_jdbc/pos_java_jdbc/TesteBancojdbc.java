@@ -64,6 +64,7 @@ public class TesteBancojdbc {
 			e.printStackTrace();
 		}
 
+		
 	}
 
 	@Test
