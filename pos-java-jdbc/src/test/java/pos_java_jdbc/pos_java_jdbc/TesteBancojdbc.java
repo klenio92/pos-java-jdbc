@@ -110,4 +110,5 @@ public class TesteBancojdbc {
 		dao.deletarFones(6L);
 
 	}
+
 }
